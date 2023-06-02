@@ -1,29 +1,94 @@
-body {
+html {
+    background-color: #e8ecef;
+    align-items: center;
     font-family: sans-serif;
-    background: #E8ECEF;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #e8ecef; /* Fondo gris */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    text-align: center;
+    position: relative;
+  }
+  
+  .titulo {
+    text-align: center;
+    margin: 10px;
+    background-color: #e8ecef;
+    font-size: 50px;
+  }
+  
+  .formulario {
+    background-color: white;
+    padding: 30px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px 1px #adbeca;
+    margin: auto;
+  }
+  
+  input {
+    position: relative;
+    background-color: white;
+    border-style: solid;
+    display: flex;
+    border-radius: 3px;
+    border-width: 1px;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+  }
+  
+  .fa-user {
+    float: right;
+    margin-right: 8px;
+    margin-top: -26px;
+    position: relative;
+    display: block;
+    z-index: 2;
+  }
+  
+  .fa-envelope {
+    float: right;
+    margin-right: 8px;
+    margin-top: -26px;
+    position: relative;
+    display: block;
+    z-index: 2;
+  }
+  
+  .fa-phone {
+    float: right;
+    margin-right: 8px;
+    margin-top: -26px;
+    position: relative;
+    display: block;
+    z-index: 2;
   }
 
-
-  #tituloPrincipal{
-    text-align: center;
-  }
-
-  form {
-    width: 450px;
-    min-height: 500px;
-    height: auto;
-    border-radius: 5px;
-    margin: 2% auto;
-    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
-    padding: 2%;
-    background: #FFFFFF 100%;
-
-    
-}
-
-header {
-    margin: 1% auto 5% auto;
-    text-align: center;
+  .input-container{
+    text-align: left;
     font-size: 10px;
-    color: #808080;
-}
+  }
+
+  .flag{
+    color: white;
+    border-style: solid;
+    display:flex;
+  }
+
+  .flag button{
+    background-color: #4caf50;
+    border-color: #4caf50;
+    border-radius: 3px;
+    height: 100%;
+    width: 50px;
+  }
