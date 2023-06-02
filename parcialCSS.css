@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    background: #E8ECEF;
+  }
+
+
+  #tituloPrincipal{
+    text-align: center;
+  }
+
+  form {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background: #FFFFFF 100%;
+
+    
+}
+
+header {
+    margin: 1% auto 5% auto;
+    text-align: center;
+    font-size: 10px;
+    color: #808080;
+}
